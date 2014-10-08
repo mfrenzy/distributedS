@@ -25,7 +25,7 @@ public class Client {
 			BufferedReader input = new BufferedReader(new InputStreamReader(client.getInputStream()));
 			PrintWriter output = new PrintWriter(client.getOutputStream(), true);
 			
-			output.println("!login 0304463 10530");
+			output.println("!login xxxxxxx xxxxxx");
 			String readString;
 			
 			while((readString = input.readLine()) != null) {
